@@ -1,0 +1,26 @@
+.bg-inf-blue{
+    background-color:#009EE2 ;
+    // padding: 0 200px 0 20px;
+    .copy-right{
+        color: #FFFFFF;
+        font-family: frutiger-Bold;
+        font-size: 16px;
+        margin: 12px 0;
+
+    }
+    .Condition{
+        color: #FFFFFF;
+        font-family: frutiger-Bold;
+        font-size: 16px;
+        margin: 12px 0;
+    }
+    .copy-right::before { 
+        content: "|";
+        margin: 0 8px;    
+  }
+    i{
+        font-size: 25px;
+        color:#FFFFFF ;
+        margin: 12px 3px;
+    }
+}

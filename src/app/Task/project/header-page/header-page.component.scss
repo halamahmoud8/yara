@@ -1,0 +1,62 @@
+mat-toolbar{
+    background-color: #FFFFFF;
+ 
+  
+   .navbar{
+    min-width: 99%;
+       width: 99%;
+ 
+    .navbar-logo{
+        width: 25%;
+        img{
+            width: 40%;
+        }
+    }
+   
+       li{
+        list-style-type: none;
+        display: inline;
+      
+        a {
+            font-size: 14px;
+            font-weight: 400;
+            color: #009EE2;
+            
+            text-decoration: none;
+         
+          }
+       }
+       .navbar-setting{
+        text-align: left;
+   
+       }
+
+    }
+
+}
+.mg-l{
+    margin-left: 29px;
+}
+.p{
+    padding: 0 10px;
+}
+.active{
+    color: #4B4B4B !important;
+}
+.icon{
+    margin-top: 7px;
+    font-size: 23px;
+    color: #009EE2;
+
+}
+.icon::after { 
+    content: "|";
+    margin: 0 8px; 
+    color: #0000000F;   
+}
+.search-icon{
+    margin-top: 7px;
+    font-size: 23px;
+    color: #009EE2;
+
+}
